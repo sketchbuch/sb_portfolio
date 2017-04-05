@@ -1,0 +1,25 @@
+/* SB Portfolio for WordPress TODOs */
+/* -------------------------------- */
+
+Must
+====
+
+* Change flicr misspelling
+* Add watermarks
+
+
+
+Done
+====
+
+* Add swatch button should focus on new # field.
+* Autocompletes should wrap deleted recs in span to mark as red
+* Client items should mark published as green and deleted as red
+* Fix text list auto complete success
+* Make sure item meta names begin with "sbp_item_"
+* Media metabox shows no media message even if media exists
+* When changing tabs, clear rscurrents.
+* Add a "No content" message to media and links
+* After creating a record redirect to edit
+* Check bulk changing
+* Check boolean fields

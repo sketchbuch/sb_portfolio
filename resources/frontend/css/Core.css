@@ -1,0 +1,73 @@
+/*  
+	Copyright 2017  Stephen Bungert  (email : hello@stephenbungert.com)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as 
+    published by the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+
+
+/*
+ * Frontend CSS for SB Portfolio WP
+ * 
+ * @author Stephen Bungert <hello@stephenbungert.com>
+ * @package WordPress
+ * @subpackage SB Portfolio
+ */
+ 
+/* Debug Table */
+/* ----------- */
+
+table.sbpDebugTable {
+	border-collapse: collapse !important;
+	padding: 0px;
+	border: none;
+}
+
+	table.sbpDebugTable > thead > tr > th {
+		vertical-align: top;
+		text-align: left;
+		background: #ccc;
+		color: #444;
+		padding: 4px;
+		border: 1px solid #ccc;
+	}
+
+	table.sbpDebugTable > thead > tr > th.debugTitle {
+		font-weight: bold;
+		color: #fff;
+		background: #aaa;
+		border: 1px solid #aaa;
+		border-bottom: none;
+	}
+
+	table.sbpDebugTable > tbody tr > td {
+		vertical-align: top;
+		text-align: left;
+		border: 1px solid #ccc;
+		padding: 4px;
+	}
+
+	table.sbpDebugTable > tbody tr > td.typeCell	{color: #d54e21;}
+	table.sbpDebugTable > tbody tr > td.valueCell	{color: #21759b;}
+	table.sbpDebugTable > tbody tr > td.keyCell		{color: #333;}
+
+	table.sbpDebugTable > tbody tr > td.valueCell span.emptyValue {
+		color: #888;
+		font-style: italic;
+	}
+
+	table.sbpDebugTable > tbody tr > td span.typeInfo	{color: #888;}
+	table.sbpDebugTable > tbody tr > td span.classInfo	{color: #55aa55;}
+
+	table.sbpDebugTable-1 {margin: 20px;}
