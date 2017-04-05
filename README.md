@@ -1,7 +1,5 @@
 # SB Portfolio (sb_portfolio_wp)
-A plugin for Wordpress that gives you a complete portfolio system with items, clients, testimonials, media support, and more  (wordpress folder should be sb:portfolio NOT sb_portfolio_wp).
-
-THE FOLLOWING IS WORK IN PROGRESS AND IS NOT COMPLETE OR FINAL!!!
+A plugin for Wordpress that gives you a complete portfolio system with items, clients, testimonials, media support, and more.
 
 ## Settings
 
